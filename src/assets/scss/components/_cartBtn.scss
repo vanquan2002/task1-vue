@@ -1,0 +1,32 @@
+.btn-card {
+  color: #17a2b8;
+  display: flex;
+  position: fixed;
+  bottom: 50px;
+  right: 40px;
+  z-index: 10;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn-card:hover {
+  opacity: 60%;
+}
+.cart-icon {
+  font-size: 32px;
+}
+.cart-number {
+  position: absolute;
+  left: 22px;
+  bottom: 23px;
+  color: #fff;
+  font-size: 12px;
+  padding: 1px 7px;
+  border-radius: 50%;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+}
+.user-name, .login-text{
+  font-weight: 700;
+  color: #ffffffd6;
+}

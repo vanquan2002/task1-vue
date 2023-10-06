@@ -1,0 +1,31 @@
+.img-cart{
+  display: flex;
+  justify-content: center;
+}
+.img-cart img{
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.title-cart{
+  width: 700px;
+}
+.caption {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.control-quality {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+button {
+  border: none;
+  padding: 0px 5px;
+  background-color: #fff;
+  color: #17a2b8;
+}
+.text-total,
+.text-header {
+  color: #17a2b8;
+}
